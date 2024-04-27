@@ -4,142 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>CV page</title>
+    <title>Watches</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-
     <header class="header">
-        <img class="avatar" src="assets/avatar.png" alt="my photo">
-        <h1 class="header__title">Dmitry T | CV</h1>
-        <h2 class="header__subtitle">Frontend Developer</h2>
+        <div class="header-container">
+            <div>
+                <h1 class="header-title">mor705</h1>
+                <p class="header-subtitle">Watch</p>
+                <p class="header-description">The watch also features a tough and durable sapphire a Swiss Sellita
+                    SW200-1 automatic winding movement that
+                    has a power reserve</p>
+
+                <div class="buy-wrapper">
+                    <a href="#" class="buy-link">Buy watch</a>
+                    <div class="price">1700$</div>
+                </div>
+            </div>
+            <div class="header-img-wrapper">
+                <img class="header-img" srcset="images/mor705.png,
+                            images/mor705@2x.png 2x" src="images/mor705.png" alt="Model mor705">
+            </div>
+        </div>
     </header>
-
     <main>
-        <section class="skills">
-            <h3>Skills</h3>
+        <p class="popular-title">popular</p>
+        <p class="models-title">Models</p>
+        <div class="item-wrapper">
+            <div class="item-img-wrapper">
+                <img srcset="images/son22.png,
+                        images/son22@2x.png 2x" src="images/son22.png" alt="Model mor705">
+            </div>
+            <h2 class="item-title">Son22</h2>
+            <p class="item-description">The watch also features a tough and durable sapphire crystal glass and comes
+                with a Swiss SW200-1
+                automatic
+                winding movement that has a power reserve.</p>
+        </div>
+        <div class="item-wrapper">
+            <div class="item-img-wrapper">
+                <img srcset="images/sw12.png,
+                        images/sw12@2x.png 2x" src="images/sw12.png" alt="Model mor705">
+            </div>
+            <h2 class="item-title">Sw12</h2>
+            <p class="item-description">The watch also features a tough and durable sapphire crystal glass and comes
+                with a Sw12-1 automatic winding</p>
+        </div>
 
-            <details>
-                <summary>Skills list:</summary>
-
-                <ol>
-                    <li>1. HTML</li>
-                    <li>2. CSS</li>
-                    <li>3. JavaScript</li>
-                    <li>4. React</li>
-                    <li>5. TypeScript</li>
-                </ol>
-            </details>
-        </section>
-
-        <article class="article">
-            <h4>Short article about me</h4>
-
-            <p>
-                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Текст своих,
-                залетают проектах они рот языкового свой необходимыми своего журчит взгляд рыбного деревни запятых дал
-                решила текста домах города мир назад если коварных напоивший речью бросил! Безопасную образ все живет
-                заманивший, предупреждал дорогу рекламных имеет? Страна ее своих жаренные?
+        <div class="product-description-wrapper">
+            <p class="product-description-title">Product description</p>
+            <hr class="product-description-line">
+            <p class="product-description">Inspired by the WWI trench watch, this timepiece has a contemporary design
+                with an urban style and a vintage
+                soul. The 22 Design Studio Concrete Sector Watch reinterprets the old timepiece with a concrete dial.
+                Handmade in Taiwan, the dial is cast in one piece using the béton technique <a
+                    class="product-description-link" href="#">more detailed</a>
             </p>
-        </article>
-
-        <section class="gallery">
-            <h3>Gallery</h3>
-            <img src="https://placehold.co/250x250" alt="placehold image">
-            <img src="https://placehold.co/250x250" alt="placehold image">
-            <img src="https://placehold.co/250x250" alt="placehold image">
-        </section>
-
-        <hr class="separater">
-
-        <section class="video">
-            <iframe src="https://www.youtube.com/embed/N-Fa1tm3oz0"
-                title="24. Frontender[1.0] CV Page. Вёрстка первой страницы HTML, CSS"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </section>
-
-        <section class="hobbies">
-            <h4>My hobbies</h4>
-            <details>
-                <summary>Hobbies</summary>
-
-                <ul>
-                    <li>Skiing</li>
-                    <li>Games</li>
-                    <li>Kate</li>
-                </ul>
-            </details>
-        </section>
-
-        <hr class="separater">
-
-        <section class="ed">
-            <table class="ed__table">
-                <thead>
-                    <tr>
-                        <th>School / University</th>
-                        <th>Profession</th>
-                        <th>Year</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <th>IT school 1</th>
-                        <th>Angular Dev</th>
-                        <th>2024</th>
-                    </tr>
-                    <tr>
-                        <th>IT school 2</th>
-                        <th>React Dev</th>
-                        <th>2025</th>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <section class="quote">
-            <blockquote>
-                Я не пошел... А НЕТ, ПОШЕЕЛ
-            </blockquote>
-        </section>
-
-        <section class="interaction">
-            <form action="https://ya.ru" method="get" class="form" target="_blank">
-                <fieldset>
-                    <legend>Required fields: </legend>
-
-                    <label for="firstName-id">First Name: </label>
-                    <input type="text" name="firstName" id="firstName-id" required class="form__control"
-                        placeholder="first name">
-
-                    <label for="lastName-id">Last Name: </label>
-                    <input type="text" name="lastName" id="lastName-id" required class="form__control"
-                        placeholder="last name">
-
-                    <label for="email-id">Email: </label>
-                    <input type="email" name="email" id="email-id" required class="form__control" placeholder="email">
-                </fieldset>
-
-                <br>
-                <textarea name="questions" cols="30" rows="7" class="form__control control__text"
-                    placeholder="your questions"></textarea>
-
-                <button type="submit" class="form__submit">Submit</button>
-            </form>
-        </section>
+        </div>
     </main>
-
-    <footer>
-        <address>
-            <a href="mailto:it@mail.ru" class="contacts__link">it@mail.ru</a>
-            <br><br>
-            <a href="tel:+79281111111" class="contacts__link">+79281111111</a>
-        </address>
-    </footer>
-
 </body>
 
 </html>
