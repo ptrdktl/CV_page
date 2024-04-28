@@ -9,6 +9,6 @@
     3. three
 ```
 
-[CV page repository](https://github.com/ptrdktl/CV_page)
+[CV page website](https://ptrdktl.github.io/CV_page/)
 
 ![image](assets/avatar.png)
